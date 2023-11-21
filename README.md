@@ -1,4 +1,5 @@
 # MusicTextAlignment
+[English](README.md) | [中文](README_ZH.md)  
 ## Describe
 This is a dataset that aligns **piano music MIDI** with their corresponding **textual descriptions and comments**. It can be used for multi-modal models in music-text alignment tasks, similar to how visual-LLM (such as LLaVA, MiniGPT4 and VisualGLM) align image encodings with textual embeddings. 
 
