@@ -30,3 +30,19 @@
 ![MusicLLM](MusicLLM_designed_like_LLaVA.png)  
   
 希望 **MusicLLM** 能够抛砖引玉，期待你们的工作！
+
+## 许可证协议
+该项目采用 [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 许可证。  
+除非另有说明，本项目下的所有内容都在 Creative Commons Attribution 4.0 International License 许可下发布。  
+您可以自由共享、复制、分发、执行、展示和演绎本项目的内容，甚至可以将其用于商业用途，前提是您提供适当的署名和说明。详细信息请参阅 [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 许可证。
+
+## 引用
+如果您在学术论文、博客文章或其他作品中引用了这个项目，请使用以下 Bibtex 引用格式：
+
+```bibtex
+@misc{MusicTextAlignment,
+  author = {Haitao Song},
+  title = {Music and Text Alignment},
+  year = {2023},
+  howpublished = {\url{https://github.com/shtdbb/MusicTextAlignment}}
+}
