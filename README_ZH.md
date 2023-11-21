@@ -22,3 +22,11 @@
 ## 提示 
 1. 文本数据采集自互联网，故文本的语言、表达、格式存在较大差异，数据质量请大家自行甄别。
 2. 请在相关规范内使用数据集，使用数据集引起的一切后果请自负。
+
+## 一些想法
+### **MusicLLM**：  
+下图是我设计的能够理解音乐内容的大语言模型 **MusicLLM**，它参考了 *LLaVA*([Paper](https://arxiv.org/pdf/2304.08485.pdf), [Project](https://llava-vl.github.io/)) 的模型结构，使用 [*Music Text Representation*](https://github.com/seungheondoh/music-text-representation) 作为音乐编码器，用 [*ChatGLM*](https://github.com/THUDM/ChatGLM-6B) 作为大语言模型，添加一层映射层将音乐编码与文本嵌入对齐。其中，音乐编码器和大语言模型参数都不进行更新，只训练映射层参数。当然，也可以在第二阶段通过更新映射层和大语言模型的参数进行微调。   
+  
+![MusicLLM](MusicLLM_designed_like_LLaVA.png)  
+  
+希望 **MusicLLM** 能够抛砖引玉，期待你们的工作！
