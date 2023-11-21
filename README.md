@@ -30,3 +30,18 @@ The diagram below depicts my designed large language model for understanding mus
 ![MusicLLM](MusicLLM_designed_like_LLaVA.png)  
   
 I hope that **MusicLLM** can serve as a reference, and I look forward to your contributions in this field!
+
+## License
+This project is licensed under the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.  
+Unless otherwise specified, all content in this project is licensed under the Creative Commons Attribution 4.0 International License.  
+You are free to share, copy, distribute, perform, display, and adapt the content in this project, even for commercial purposes, as long as you provide appropriate attribution and indicate if changes were made. For more details, please refer to the [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
+
+## Citation
+Please consider citing my project in your publications if the project helps your research. BibTeX reference is as follow.
+```bibtex
+@misc{MusicTextAlignment,
+  author = {Haitao Song},
+  title = {Music and Text Alignment},
+  year = {2023},
+  howpublished = {\url{https://github.com/shtdbb/MusicTextAlignment}}
+}
